@@ -318,6 +318,11 @@ export default function Index() {
                         key: {step.keyChar}
                       </div>
                     )}
+                    {step.type === "sha256" && (
+                      <div className="text-[10px] text-muted-foreground mt-1 font-mono">
+                        hex byte
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
