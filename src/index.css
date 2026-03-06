@@ -135,3 +135,14 @@
     linear-gradient(90deg, hsl(var(--border) / 0.3) 1px, transparent 1px);
   background-size: 60px 60px;
 }
+
+@keyframes tamper-alert {
+  0%, 100% { opacity: 1; }
+  25% { opacity: 0.6; transform: translateX(-2px); }
+  50% { opacity: 1; transform: translateX(2px); }
+  75% { opacity: 0.6; transform: translateX(-1px); }
+}
+
+.animate-tamper-alert {
+  animation: tamper-alert 0.4s ease-in-out 3;
+}
