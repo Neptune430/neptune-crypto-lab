@@ -351,7 +351,7 @@ It is useful for:
 
 **John Ofulue**
 
-Cybersecurity | Cryptography | Cloud Security
+Cybersecurity | Cryptography 
 
 ---
 
